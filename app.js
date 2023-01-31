@@ -11,5 +11,6 @@ console.log(answer)
 console.log(chilometri * 0.21)
 
 if (anni < 18){
-    console.log(chilometri * 0.21 ) / 100
-}
+    console.log((chilometri * 0.21)%20 ) 
+}  
+
